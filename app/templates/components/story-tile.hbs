@@ -1,8 +1,7 @@
 
 
 {{#carousel-item}}
-  <img src={{story.image}} alt={{story.title}}>
-  {{#link-to 'story' story.id}}{{story.title}} by {{story.author}}{{/link-to}}
+  {{#link-to 'story' story.id}}<img class="img-responsive" src={{story.image}} alt={{story.title}}>{{story.title}} by {{story.author}}{{/link-to}}
 {{/carousel-item}}
 
 <!-- <li>
