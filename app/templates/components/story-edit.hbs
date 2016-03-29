@@ -1,0 +1,30 @@
+{{#if editStoryForm}}
+  <h4>Edit Story</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title" placeholder=story.title}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=story.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="body">Body</label>
+        {{input value=body id="body" placeholder=story.body}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image" placeholder=story.image}}
+      </div>
+
+      <button {{action 'edit' story}}>Save</button>
+    </form>
+  </div>
+{{else}}
+    <button {{action 'editStoryForm'}}>Update</button>
+{{/if}}

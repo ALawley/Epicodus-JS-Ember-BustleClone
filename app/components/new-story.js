@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         body: this.get('body') ? this.get('body') : "",
         image: this.get('image') ? this.get('image') : ""
       };
-      this.set('addNewRental', false),
+      this.set('addNewStory', false),
       this.sendAction('save2', params);
     }
   }
