@@ -1,0 +1,17 @@
+{ "stories": [{
+    "title": "Adult Coloring Book Review",
+    "author": "Anna Lawley",
+    "body": "Adult coloring books are the best!",
+    "image": "http://cdn1.theodysseyonline.com/files/2015/07/26/6357348472829473521531002270_111767_LP_ColouringBooks-elephant-v2.gif"
+  }, {
+    "title": "Roman Candle Cookies in Hot Demand",
+    "author": "Mary Warrington",
+    "body": "Due to crazy cookie lady eating all Roman Candle chocolate chip cookies, the city of Portland is experiencing a shortage of baked goods! Customers have reported being stalked on their way to purchase cookies.",
+    "image": "https://img.trycaviar.com/tJ1TQtFdbqXur6H6wfuO1_H8Jq0=/479x319/https://s3.amazonaws.com/trycaviar.com/offers/897/36137.jpg"
+  }, {
+    "title": "How to Make the Best Bitmoji",
+    "author": "Michelle Brecunier",
+    "body": "Look at my Bitmoji. Isn't it great? I bet you wish you had a bitmoji like mine.",
+    "image": "http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-small/inline/2015/04/3044570-inline-i-1-bitmoji-becca.png"
+  }]
+}
